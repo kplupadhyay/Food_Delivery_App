@@ -1,12 +1,21 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import Card from "../components/Card"
+import Show from '../components/Show'
 
 export default function Home() {
   return (
     <div>
-      <Navbar/>
-      <Footer/>
+      <div><Navbar/></div>
+      
+      <div><Show/></div>
+      <div className='m-3'><Card/>
+      <Card/>
+      <Card/></div>
+      <div><Footer/></div>
     </div>
   )
 }
+
+
