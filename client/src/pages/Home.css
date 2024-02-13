@@ -1,0 +1,88 @@
+
+.bg {
+    background-image: url("../assets/home.jpg");
+    position: relative;
+    z-index: 1;
+    
+    height: 120vh;
+    /* width: auto; */
+    /* width: 100%; */
+    /* position: relative; */
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+   
+    /* position: absolute; */
+  }
+  /* @media (min-width:500px){
+    .bg{
+      background-size: cover;
+    }
+  } */
+  .cont{
+    color: antiquewhite;
+   
+    position: relative;
+    top: -500px;
+    width: 100%;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+  }
+  .content1{
+    background: transparent;
+    /* margin-right: 20%; */
+    position: absolute;
+    left: 30%;
+  }
+  .content2{
+    background: transparent;
+    /* margin-right: 20%; */
+    position: absolute;
+    left: 33%;
+    top: 50px;
+  }
+  .p{
+    position: absolute;
+    left: 24%;
+    top: 100px;
+    background: transparent;
+  }
+  .button{
+    position: absolute;
+    top: 400px;
+    left: 45%;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+  }
+  .mid{
+    position: relative;
+    height: 200px;
+    width: 500px;
+    margin-left: 30%;
+    margin-top: -20%;
+    z-index: 1;
+  }
+  .set{
+    background: transparent;
+  }
+
+  .sett{
+    background: transparent;
+    
+    color: antiquewhite;
+    /* position: relative; */
+    /* left: 30%; */
+    padding-left: 20%;
+    padding-right: 20%;
+    
+    
+  }
+  .cot{
+    padding-top: 10%;
+    background: transparent;
+  }
+  

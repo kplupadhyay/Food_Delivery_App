@@ -1,0 +1,37 @@
+.img{
+    position: absolute;
+}
+.l-section{
+    position: relative;
+    width: 80%;
+    height: 400px;
+    /* margin-right: 10%px; */
+}
+.sect-img{
+    position: absolute;
+    z-index: 0;
+}
+.form{
+    height: 300px;
+    width: 500px;
+    position: relative;
+    top: 30%;
+    left :50%;
+    padding: 20px;
+    background-color: rgb(228 229 229 / 77%);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 4px 6px 23px gray;
+
+}
+.form-container{
+    width: 100%;
+    height: 424px;
+    position: relative;
+    z-index: 1;
+    background-color: transparent
+}
+.ok{
+    background: white;
+    
+}
